@@ -1,3 +1,3 @@
-![Website](.images/Avinash.jpg)
+![Website](images/banner.jpg)
 
 # Person Website
