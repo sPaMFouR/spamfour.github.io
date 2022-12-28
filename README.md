@@ -1,3 +1,3 @@
-![Website](images/banner.jpg)
+# Personal Website
 
-# Person Website
+![Website](images/banner.jpg)
