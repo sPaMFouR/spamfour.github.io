@@ -2967,7 +2967,32 @@ input, select, textarea {
 					top: 0;
 					width: 100%;
 				}
-
+				.spotlights > section > .astroimage {
+					background-position: center center;
+					background-size: cover;
+					border-radius: 0;
+					display: block;
+					position: relative;
+					width: 45%;
+				}
+	
+				.spotlights > section > .astroimage img {
+						border-radius: 0;
+						display: block;
+						width: 100%;
+				}
+	
+				.spotlights > section > .astroimage:before {
+					background: rgba(36, 41, 67, 0.9);
+					content: '';
+					display: block;
+					height: 100%;
+					left: 0;
+					opacity: 0;
+					position: absolute;
+					top: 0;
+					width: 100%;
+				}
 			.spotlights > section > .content {
 				display: -moz-flex;
 				display: -webkit-flex;
@@ -3010,6 +3035,48 @@ input, select, textarea {
 					align-items: flex-end;
 				}
 
+				.spotlights > section > .astrocontent {
+					display: -moz-flex;
+					display: -webkit-flex;
+					display: -ms-flex;
+					display: flex;
+					-moz-flex-direction: column;
+					-webkit-flex-direction: column;
+					-ms-flex-direction: column;
+					flex-direction: column;
+					-moz-justify-content: center;
+					-webkit-justify-content: center;
+					-ms-justify-content: center;
+					justify-content: center;
+					-moz-align-items: center;
+					-webkit-align-items: center;
+					-ms-align-items: center;
+					align-items: center;
+					padding: 1em 1em 0.1em 1em ;
+					width: 55%;
+				}
+	
+					.spotlights > section > .astrocontent > .inner {
+						margin: 0 auto;
+						max-width: 100%;
+						width: 65em;
+					}
+	
+				.spotlights > section:nth-child(2n) {
+					-moz-flex-direction: row-reverse;
+					-webkit-flex-direction: row-reverse;
+					-ms-flex-direction: row-reverse;
+					flex-direction: row-reverse;
+					background-color: #333856;
+				}
+	
+					.spotlights > section:nth-child(2n) > .astrocontent {
+						-moz-align-items: -moz-flex-end;
+						-webkit-align-items: -webkit-flex-end;
+						-ms-align-items: -ms-flex-end;
+						align-items: flex-end;
+					}
+	
 		@media screen and (max-width: 1680px) {
 
 			.spotlights > section > .image {
