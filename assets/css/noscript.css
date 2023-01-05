@@ -21,3 +21,10 @@
 		transform: none;
 		opacity: 1;
 	}
+
+	.cropped-image{
+			width: 150px; 
+			height: 150px; 
+			object-fit: cover;
+			object-position: 25% 25%; 
+			}
