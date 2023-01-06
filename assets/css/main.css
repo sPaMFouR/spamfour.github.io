@@ -2993,32 +2993,6 @@ input, select, textarea {
 					top: 0;
 					width: 100%;
 				}
-				.spotlights > section > .newimage {
-					background-position: center center;
-					background-size: cover;
-					border-radius: 0;
-					display: block;
-					position: relative;
-					width: 30%;
-				}
-	
-				.spotlights > section > .newimage img {
-						border-radius: 0;
-						display: block;
-						width: 100%;
-				}
-	
-				.spotlights > section > .newimage:before {
-					background: rgba(36, 41, 67, 0.9);
-					content: '';
-					display: block;
-					height: 100%;
-					left: 0;
-					opacity: 0;
-					position: absolute;
-					top: 0;
-					width: 100%;
-				}
 			.spotlights > section > .content {
 				display: -moz-flex;
 				display: -webkit-flex;
@@ -3096,7 +3070,7 @@ input, select, textarea {
 					background-color: #333856;
 				}
 	
-					.spotlights > section:nth-child(2n) > .newcontent {
+					.spotlights > section:nth-child(2n) > .astrocontent {
 						-moz-align-items: -moz-flex-end;
 						-webkit-align-items: -webkit-flex-end;
 						-ms-align-items: -ms-flex-end;
@@ -3142,7 +3116,7 @@ input, select, textarea {
 							-webkit-align-items: -webkit-flex-end;
 							-ms-align-items: -ms-flex-end;
 							align-items: flex-end;
-						}	
+						}
 		@media screen and (max-width: 1680px) {
 
 			.spotlights > section > .image {
