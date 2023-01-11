@@ -3247,10 +3247,10 @@ input, select, textarea {
 		}
 
 			#header .logo strong {
-				-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-				-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+				-moz-transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+				-webkit-transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+				-ms-transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+				transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
 				background-color: #ffffff;
 				color: #242943;
 				display: inline-block;
@@ -3586,6 +3586,53 @@ input, select, textarea {
 					letter-spacing: 0.25em;
 					text-transform: uppercase;
 				}
+
+				/* #header .logo strong {
+					-moz-transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+					-webkit-transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+					-ms-transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+					transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+					background-color: #ffffff;
+					color: #242943;
+					display: inline-block;
+					line-height: 1.65em;
+					margin-right: 0.325em;
+					padding: 0 0.125em 0 0.375em;
+				}
+	
+				#header .logo:hover strong {
+					background-color: #9bf1ff;
+				}
+	
+				#header .logo:active strong {
+					background-color: #53e3fb;
+				}
+
+				 */
+				#banner > .inner .content strong{
+					-moz-transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+					-webkit-transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+					-ms-transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+					transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
+					background-color: rgba(0, 0, 0, 0.4);
+					color: #242943;
+					border-radius : 5px;
+					display: inline-block;
+					line-height: 1.65em;
+					margin-right: 0.325em;
+					padding: 0 0.125em 0 0.375em;
+				}
+	
+					#banner > .inner .content:hover strong > * {
+						background-color: #746d6d;
+					}
+					#banner > .inner .content:active strong > * {
+						background-color: #888888;
+					}
+					#banner > .inner .content > :last-child {
+						margin-right: 0;
+					}
+
 
 		#banner.major {
 			height: 75vh;
